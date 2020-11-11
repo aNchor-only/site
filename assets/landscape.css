@@ -1,0 +1,199 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins|VT323';
+span.red {
+    color: crimson
+}
+
+main:before {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./aincrad.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
+
+.profile {
+    height: 30vh;
+    width: 75vh;
+    margin: auto;
+    margin-top: 15vh;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .75);
+    padding: 5vh;
+    border-radius: .5em;
+    box-shadow: 0 .5em .5em rgba(0, 0, 0, .5)
+}
+
+.profile .profile-image {
+    height: 100%;
+    width: 40%;
+    float: left;
+    margin: 0
+}
+
+.profile a {
+    color: #1e90ff;
+    transition: all .25s ease-in-out
+}
+
+.profile a:hover {
+    color: #00bfff;
+    background-color: rgba(240, 255, 255, .8)
+}
+
+.profile .profile-image>img {
+    height: 90%;
+    width: auto;
+    margin: 0 5%;
+    float: left;
+    border-radius: 1.5em
+}
+
+.profile .profile-image>figcaption {
+    height: 7.5%;
+    width: 100%;
+    float: left;
+    font-family: "rounded mplus 1c", cursive;
+    font-size: 2vh;
+    font-weight: 500;
+    text-align: right;
+    margin-top: 2.5%
+}
+
+.profile .text {
+    float: left;
+    padding-left: 2.5vh
+}
+
+.profile .name {
+    font-size: 7vh;
+    font-weight: 700;
+    font-family: poppins, sans-serif;
+    padding-bottom: 1vh
+}
+
+.profile .description {
+    font-size: 3vh;
+    font-family: vt323, monospace;
+    text-align: left;
+    padding-left: 1vh
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70vh;
+    padding: 2.5vh 0
+}
+
+.links .link-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-flow: column;
+    font-size: 5vh;
+    text-align: center;
+    height: 10vh;
+    width: 10vh;
+    float: left;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: .5em;
+    box-shadow: 0 .25em .25em rgba(0, 0, 0, .5)
+}
+
+.links .link-btn a {
+    width: 5vh;
+    height: 5vh;
+    padding: 2.5vh;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: .5em
+}
+
+.links .link-btn a:before {
+    content: '';
+    width: 130%;
+    height: 130%;
+    position: absolute;
+    transform: rotate(45deg)
+}
+
+.link-btn,
+.link-btn a:before,
+.link-btn .fa {
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: cubic-bezier(.31, -.105, .43, 1.59)
+}
+
+.links .link-btn a:before {
+    top: 90%;
+    left: -110%
+}
+
+.link-btn.blog .fa {
+    color: #ea531f
+}
+
+.link-btn.blog a:before {
+    background-color: #ea531f
+}
+
+.link-btn.postype .fa {
+    color: #6670dd
+}
+
+.link-btn.postype a:before {
+    background-color: #6670dd
+}
+
+.link-btn.twitter .fa {
+    color: #1da1f2
+}
+
+.link-btn.twitter a:before {
+    background-color: #1da1f2
+}
+
+.link-btn.github .fa {
+    color: #333
+}
+
+.link-btn.github a:before {
+    background-color: #333
+}
+
+.link-btn.email .fa {
+    color: #dc4a38
+}
+
+.link-btn.email a:before {
+    background-color: #dc4a38
+}
+
+.link-btn:focus a:before,
+.link-btn:hover a:before {
+    top: -15%;
+    left: -15%
+}
+
+.link-btn:focus .fa,
+.link-btn:hover .fa {
+    color: #fff;
+    transform: scale(1.2)
+}
+
+.link-btn:focus .fa-flip-horizontal,
+.link-btn:hover .fa-flip-horizontal {
+    transform: scale(-1.2, 1.2)
+}

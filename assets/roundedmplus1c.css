@@ -1,0 +1,504 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Rounded Mplus 1c Thin'), local('RoundedMplus1c-Thin'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNOjORWPa_DWpyxyUCMwBCdF7nsoCs3FFKWWp4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Rounded Mplus 1c Thin'), local('RoundedMplus1c-Thin'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNOjORWPa_DWpyxyUCMwBCdF7nsoCs3HVKWWp4.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Rounded Mplus 1c Thin'), local('RoundedMplus1c-Thin'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNOjORWPa_DWpyxyUCMwBCdF7nsoCs3FVKWWp4.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Rounded Mplus 1c Thin'), local('RoundedMplus1c-Thin'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNOjORWPa_DWpyxyUCMwBCdF7nsoCs3GlKWWp4.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Rounded Mplus 1c Thin'), local('RoundedMplus1c-Thin'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNOjORWPa_DWpyxyUCMwBCdF7nsoCs3G1KWWp4.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* japanese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Rounded Mplus 1c Thin'), local('RoundedMplus1c-Thin'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNOjORWPa_DWpyxyUCMwBCdF7nsoCs3EVKWWp4.woff2) format('woff2');
+  unicode-range: U+3000-30FF, U+4E00-9FFF, U+FF00-FFEF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Rounded Mplus 1c Thin'), local('RoundedMplus1c-Thin'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNOjORWPa_DWpyxyUCMwBCdF7nsoCs3FlKWWp4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Rounded Mplus 1c Thin'), local('RoundedMplus1c-Thin'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNOjORWPa_DWpyxyUCMwBCdF7nsoCs3F1KWWp4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Rounded Mplus 1c Thin'), local('RoundedMplus1c-Thin'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNOjORWPa_DWpyxyUCMwBCdF7nsoCs3GVKW.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rounded Mplus 1c Light'), local('RoundedMplus1c-Light'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoOMlDnizZ6dN.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rounded Mplus 1c Light'), local('RoundedMplus1c-Light'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoOMlDnGzZ6dN.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rounded Mplus 1c Light'), local('RoundedMplus1c-Light'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoOMlDnmzZ6dN.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rounded Mplus 1c Light'), local('RoundedMplus1c-Light'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoOMlDnazZ6dN.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rounded Mplus 1c Light'), local('RoundedMplus1c-Light'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoOMlDnezZ6dN.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* japanese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rounded Mplus 1c Light'), local('RoundedMplus1c-Light'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoOMlDn2zZ6dN.woff2) format('woff2');
+  unicode-range: U+3000-30FF, U+4E00-9FFF, U+FF00-FFEF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rounded Mplus 1c Light'), local('RoundedMplus1c-Light'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoOMlDnqzZ6dN.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rounded Mplus 1c Light'), local('RoundedMplus1c-Light'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoOMlDnuzZ6dN.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rounded Mplus 1c Light'), local('RoundedMplus1c-Light'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoOMlDnWzZw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rounded Mplus 1c'), local('RoundedMplus1c-Regular'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNIjORWPa_DWpyxyUCMwBCdF7nsqEUHG0qS.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rounded Mplus 1c'), local('RoundedMplus1c-Regular'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNIjORWPa_DWpyxyUCMwBCdF7nsqEwHG0qS.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rounded Mplus 1c'), local('RoundedMplus1c-Regular'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNIjORWPa_DWpyxyUCMwBCdF7nsqEQHG0qS.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rounded Mplus 1c'), local('RoundedMplus1c-Regular'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNIjORWPa_DWpyxyUCMwBCdF7nsqEsHG0qS.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rounded Mplus 1c'), local('RoundedMplus1c-Regular'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNIjORWPa_DWpyxyUCMwBCdF7nsqEoHG0qS.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* japanese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rounded Mplus 1c'), local('RoundedMplus1c-Regular'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNIjORWPa_DWpyxyUCMwBCdF7nsqEAHG0qS.woff2) format('woff2');
+  unicode-range: U+3000-30FF, U+4E00-9FFF, U+FF00-FFEF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rounded Mplus 1c'), local('RoundedMplus1c-Regular'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNIjORWPa_DWpyxyUCMwBCdF7nsqEcHG0qS.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rounded Mplus 1c'), local('RoundedMplus1c-Regular'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNIjORWPa_DWpyxyUCMwBCdF7nsqEYHG0qS.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rounded Mplus 1c'), local('RoundedMplus1c-Regular'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNIjORWPa_DWpyxyUCMwBCdF7nsqEgHGw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rounded Mplus 1c Medium'), local('RoundedMplus1c-Medium'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoLskDnizZ6dN.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rounded Mplus 1c Medium'), local('RoundedMplus1c-Medium'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoLskDnGzZ6dN.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rounded Mplus 1c Medium'), local('RoundedMplus1c-Medium'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoLskDnmzZ6dN.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rounded Mplus 1c Medium'), local('RoundedMplus1c-Medium'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoLskDnazZ6dN.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rounded Mplus 1c Medium'), local('RoundedMplus1c-Medium'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoLskDnezZ6dN.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* japanese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rounded Mplus 1c Medium'), local('RoundedMplus1c-Medium'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoLskDn2zZ6dN.woff2) format('woff2');
+  unicode-range: U+3000-30FF, U+4E00-9FFF, U+FF00-FFEF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rounded Mplus 1c Medium'), local('RoundedMplus1c-Medium'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoLskDnqzZ6dN.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rounded Mplus 1c Medium'), local('RoundedMplus1c-Medium'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoLskDnuzZ6dN.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rounded Mplus 1c Medium'), local('RoundedMplus1c-Medium'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoLskDnWzZw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rounded Mplus 1c Bold'), local('RoundedMplus1c-Bold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoPMiDnizZ6dN.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rounded Mplus 1c Bold'), local('RoundedMplus1c-Bold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoPMiDnGzZ6dN.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rounded Mplus 1c Bold'), local('RoundedMplus1c-Bold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoPMiDnmzZ6dN.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rounded Mplus 1c Bold'), local('RoundedMplus1c-Bold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoPMiDnazZ6dN.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rounded Mplus 1c Bold'), local('RoundedMplus1c-Bold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoPMiDnezZ6dN.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* japanese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rounded Mplus 1c Bold'), local('RoundedMplus1c-Bold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoPMiDn2zZ6dN.woff2) format('woff2');
+  unicode-range: U+3000-30FF, U+4E00-9FFF, U+FF00-FFEF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rounded Mplus 1c Bold'), local('RoundedMplus1c-Bold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoPMiDnqzZ6dN.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rounded Mplus 1c Bold'), local('RoundedMplus1c-Bold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoPMiDnuzZ6dN.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rounded Mplus 1c Bold'), local('RoundedMplus1c-Bold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoPMiDnWzZw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rounded Mplus 1c ExtraBold'), local('RoundedMplus1c-ExtraBold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoO8hDnizZ6dN.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rounded Mplus 1c ExtraBold'), local('RoundedMplus1c-ExtraBold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoO8hDnGzZ6dN.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rounded Mplus 1c ExtraBold'), local('RoundedMplus1c-ExtraBold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoO8hDnmzZ6dN.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rounded Mplus 1c ExtraBold'), local('RoundedMplus1c-ExtraBold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoO8hDnazZ6dN.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rounded Mplus 1c ExtraBold'), local('RoundedMplus1c-ExtraBold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoO8hDnezZ6dN.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* japanese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rounded Mplus 1c ExtraBold'), local('RoundedMplus1c-ExtraBold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoO8hDn2zZ6dN.woff2) format('woff2');
+  unicode-range: U+3000-30FF, U+4E00-9FFF, U+FF00-FFEF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rounded Mplus 1c ExtraBold'), local('RoundedMplus1c-ExtraBold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoO8hDnqzZ6dN.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rounded Mplus 1c ExtraBold'), local('RoundedMplus1c-ExtraBold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoO8hDnuzZ6dN.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Rounded Mplus 1c ExtraBold'), local('RoundedMplus1c-ExtraBold'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoO8hDnWzZw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rounded Mplus 1c Black'), local('RoundedMplus1c-Black'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoMsgDnizZ6dN.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rounded Mplus 1c Black'), local('RoundedMplus1c-Black'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoMsgDnGzZ6dN.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rounded Mplus 1c Black'), local('RoundedMplus1c-Black'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoMsgDnmzZ6dN.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rounded Mplus 1c Black'), local('RoundedMplus1c-Black'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoMsgDnazZ6dN.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rounded Mplus 1c Black'), local('RoundedMplus1c-Black'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoMsgDnezZ6dN.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* japanese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rounded Mplus 1c Black'), local('RoundedMplus1c-Black'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoMsgDn2zZ6dN.woff2) format('woff2');
+  unicode-range: U+3000-30FF, U+4E00-9FFF, U+FF00-FFEF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rounded Mplus 1c Black'), local('RoundedMplus1c-Black'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoMsgDnqzZ6dN.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rounded Mplus 1c Black'), local('RoundedMplus1c-Black'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoMsgDnuzZ6dN.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rounded Mplus 1c';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Rounded Mplus 1c Black'), local('RoundedMplus1c-Black'), url(https://fonts.gstatic.com/s/roundedmplus1c/v7/ZgNPjORWPa_DWpyxyUCMwBCdF7nsoMsgDnWzZw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
